@@ -11,7 +11,7 @@ class GameEngine {
         this.surfaceWidth = null;
         this.surfaceHeight = null;
     };
-
+ 
     init(ctx) {
         this.ctx = ctx;
         this.surfaceWidth = this.ctx.canvas.width;

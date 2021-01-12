@@ -17,3 +17,4 @@ class Timer {
         return gameDelta;
     };
 };
+ 

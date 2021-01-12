@@ -12,7 +12,7 @@ function rgb(r, g, b) {
 function hsl(h, s, l) {
     return "hsl(" + h + "," + s + "%," + l + "%)";
 };
-
+ 
 // creates an alias for requestAnimationFrame for backwards compatibility
 window.requestAnimFrame = (function () {
     return window.requestAnimationFrame ||
