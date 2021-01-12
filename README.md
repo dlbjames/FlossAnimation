@@ -1,7 +1,9 @@
-# FlossAnimation
+# Scott Pilgrim Running
 
 Hello Everyone,
  
-This was an animation I had used for a university class assignment showcasing the update and draw animations for a Javascript game engine
+This repo is made to demo a Javascript game engine I am building upon. Here we animate scott pilgrim running. 
+
+Thanks for dropping by!
 
 :D 
