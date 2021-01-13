@@ -19,15 +19,11 @@ class Animation {
         this.animations = [];
         
         // scott pilgrim running
-        // run to the left
+        // run to the right
         this.animations.push(new Animator(this.spritesheet, 2, 12, 108, 123, 8, 0.1, 0, false, true));
+        
+        // run to the left
         this.animations.push(new Animator(this.spritesheet, 1, 154, 108, 123, 8, 0.1, -0.3, true, true));
-
-        // flossAnimation
-        // right to left
-        // this.animations.push(new Animator(this.spritesheet, 2, 2, 132, 151, 5, 0.3, 34, false, false));
-        // left to right
-        // this.animations.push(new Animator(this.spritesheet, 2, 187, 132, 150, 5, 0.1, 34, false, true));
     }
 
     draw(ctx) {
